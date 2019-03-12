@@ -20,7 +20,7 @@ def sdsrv(url):
             print("SENDING....",xp ,"      ",a)
 
 
-ad = str(input("[ENTRER ADDRESS TARGET :]"))
+ad = str(input("ADD TARGET :"))
 z = 123
 while z != 98765 :
     sdsrv(ad)
